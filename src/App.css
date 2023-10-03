@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.input-box-shadow{
+    filter: drop-shadow(-4px -4px 44px rgba(0, 0, 0, 0.08));
+}
+.category-card:hover .arrow-icon{
+    fill: white;
+}
+
+.category-card:hover .category-card-title{
+
+}
+.arrow-icon{
+    fill: #F2F2F2;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+    opacity: 50%;
+    font-size: 40px;
+}
+
+.slick-next:before{
+    position: absolute;
+    right:0;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+
+.slick-next,
+.slick-prev
+{
+    position: absolute;
+    right:0;
+}
+
+.slick-prev{
+    z-index: 9;
+    margin-left: 25px;
+}
